@@ -6,7 +6,7 @@
     <title>Hudziol</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="checkCookie()">
     <header>
         <nav>
             <div id="nav-logo">
@@ -14,8 +14,8 @@
             </div>
             <div id="nav-menu">
                 <a href="#">Start</a>
-                <a href="#">Informacje</a>
-                <a href="#">Galeria</a>
+                <a href="#">Config</a>
+                <a href="#">Cheat</a>
                 <a href="#">Kontakt</a>
                 <a href="#">Regulamin</a>
             </div>
@@ -27,9 +27,18 @@
         </video>
     </div> -->
     <div id="slider">
-        <img id="slid-1" class="slider-item" src="img/slid1.jpg" alt="Slider">
-        <img id="slid-2" class="slider-item" src="img/slid2.jpg" alt="Slider">
-        <img id="slid-3" class="slider-item" src="img/slid3.png" alt="Slider">
+        <div class="slider">
+            <img id="slid-1" class="slider-item" src="img/slid1.jpg" alt="Slider">
+            <div id="slid-title-1">Chcesz się zareklamować?</div>
+        </div>
+        <div class="slider">
+            <img id="slid-2" class="slider-item" src="img/slid2.jpg" alt="Slider">
+            <div id="slid-title-2">Szukasz ekipy lub wspomagaczy do cs:go?</div>
+        </div>
+        <div class="slider">
+            <img id="slid-3" class="slider-item" src="img/slid3.png" alt="Slider">
+            <div id="slid-title-3">Szukasz idealnego kanału o tematyce cs:go?</div>
+        </div>
     </div>
     <main>
         <div id="main-content">

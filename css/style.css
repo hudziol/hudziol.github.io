@@ -26,7 +26,7 @@ body
 
 header
 {
-    position: sticky;
+    z-index: 999;
 }
 
 nav
@@ -90,7 +90,7 @@ nav a:hover
 {
     width: 100%;
     height: 350px;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     position: relative;
     overflow: hidden;
 }
@@ -102,6 +102,37 @@ nav a:hover
     height: 350px;
     left: 0;
 }
+
+#slid-title-1, #slid-title-2, #slid-title-3
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    bottom: 0;
+    background: none;
+    bottom: 0;
+    z-index: 2;
+    position: absolute;
+    font-size: 40px;
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+/* #slid-title-1
+{
+    color: #000000;
+}
+
+#slid-title-2
+{
+
+}
+
+#slid-title-3
+{
+    color: #ffffff;
+} */
 
 main
 {
