@@ -11,6 +11,11 @@ a
     color: #ffffff;
 }
 
+.flex100
+{
+    display: flex;
+}
+
 body
 {
     margin: 0;
@@ -21,7 +26,7 @@ body
 
 header
 {
-
+    position: sticky;
 }
 
 nav
@@ -86,11 +91,60 @@ main
     background-color: #ffffff;
 }
 
-#button-download
+#main-content
 {
-    padding: 15px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#main-content section
+{
+    margin: 100px 0;
+}
+
+.button-download
+{
+    width: 25%;
+    padding: 15px 0px;
     border-radius: 30px;
     background-color: #1c74f8;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.offer
+{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+.offer-circle
+{
+    border: 2px solid #1c74f8;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    line-height: 70px;
+    margin: 0 auto;
+}
+
+.offer-number
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.offer-title
+{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.offer-description
+{
+    padding: 5px;
 }
 
 footer
