@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+    }
+}
+
 *
 {
     box-sizing: border-box;
@@ -22,6 +25,16 @@ a
     width: 100%;
     font-weight: bold;
     font-size: 40px;
+}
+
+#main-description
+{
+    text-align: center;
+    width: 100%;
+    background-color: #c60202;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .section-title
@@ -76,12 +89,14 @@ nav
 nav a
 {
     color: #ffffff;
+    transition: all 1s;
 }
 
 nav a:hover
 {
     color: #000000;
     background-color: #ffffff;
+    transition: all 1s;
 }
 
 /* Wideo */
@@ -115,6 +130,11 @@ nav a:hover
     /* background-color: rebeccapurple; */
     position: relative;
     overflow: hidden;
+}
+
+.slider-item
+{
+    animation: slider-anim 4s infinite;
 }
 
 .slider-item
@@ -235,4 +255,16 @@ footer
     color: #ffffff;
     height: 50px;
     line-height: 50px;
+}
+
+#alert
+{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #c60202;
+    color: #ffffff;
+    padding: 5px;
 }

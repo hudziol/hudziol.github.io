@@ -25,7 +25,7 @@ function getCookie(cname)
     return "";
 }
 
-function checkCookie()
+/* function checkCookie()
 {
     var user = getCookie("username");
     if (user != "")
@@ -40,7 +40,7 @@ function checkCookie()
             setCookie("username", user, 365);
         }
     }
-}
+} */
 
 var slid = 1;
 var max = 3;
@@ -69,5 +69,28 @@ function slider()
         document.getElementById("slid-title-" + slid).style.display = "block";
         slid = 1;
     }
-    setTimeout(slider, 2000);
+    setTimeout(slider, 4000);
+}
+
+window.onload = alert;
+
+function alert(klik)
+{
+    if(klik == 1)
+    {
+        document.getElementById("alert").style.display = "none";
+        setCookie("alert", "1", 365);
+    }
+    else
+    {
+        var alert = getCookie("alert");
+        if(alert == 1)
+        {
+            document.getElementById("alert").style.display = "none";
+        }
+        else
+        {
+            document.getElementById("alert").style.display = "block";
+        }
+    }
 }
