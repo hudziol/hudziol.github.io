@@ -72,24 +72,6 @@ function slider()
     setTimeout(slider, 4000);
 }
 
-//var img = this.document.getElementById("img-1");
-//var img = document.getElementsByClassName("galer-img");
-//var img = document.querySelectorAll(".galer-img");
-//var num;
-//img.onclick = imgMax;
-/* for(i=0; i<10; i++)
-{
-    img[i].onclick = imgMax;
-    console.log(i);
-}
-
-function imgMax()
-{
-    console.log("Img");
-    //var imgScreen = document.createElement("div");
-    //imgScreen.src;
-} */
-
 window.onload = alert;
 
 function alert(klik)

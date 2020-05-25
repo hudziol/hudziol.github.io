@@ -196,69 +196,6 @@ main
     color: #3d3d3d;
 }
 
-.reg-item
-{
-    width: 100%;
-}
-
-.reg-title
-{
-    font-weight: bold;
-    text-align: center;
-}
-
-.reg-description
-{
-    text-align: center;
-}
-
-.galer-main
-{
-    display: flex;
-    margin: 0px;
-}
-
-.galer-img
-{
-    width: 25%;
-    padding: 5px;
-}
-
-.gry
-{
-    width: 33.33%;
-    text-align: center;
-}
-
-.gry-img
-{
-    width: 80%;
-    padding-bottom: 10px;
-}
-
-.gry-title
-{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.gry-description
-{
-    width: 100%;
-    padding: 20px;
-    color: #3d3d3d;
-}
-
-.gry-download
-{
-    width: 100%;
-}
-
-.gry-download .button-download
-{
-    padding: 10px 20px;
-}
-
 footer
 {
     width: 100%;
@@ -285,6 +222,17 @@ footer
 /* -------------------------------------- */
 /* Tylko strona gtavonline */
 /* -------------------------------------- */
+
+#menu-gtav
+{
+    width: 100%;
+    display: flex;
+}
+
+#menu-gtav a
+{
+    color: #000000;
+}
 
 .gtav-pakiety
 {
