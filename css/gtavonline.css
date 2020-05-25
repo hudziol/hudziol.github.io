@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@keyframes slider-anim
+{
+    0%
+    {
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+    50%
+    {
+        opacity: 1.0;
+        transform: scale(1.0);
+    }
+    100%
+    {
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.proc25
+{
+    width: 25%;
+}
+
+.flex100
+{
+    display: flex;
+}
+
+#main-title
+{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#main-description
+{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+.section-title
+{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textcenter
+{
+    text-align: center;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header
+{
+    z-index: 999;
+}
+
+nav
+{
+    background-color: #3d3d3d;
+    display: flex;
+    line-height: 50px;
+}
+
+#nav-logo
+{
+    padding: 0 10px;
+    height: 50px;
+}
+
+#nav-logo img
+{
+    height: 50px;
+}
+
+#nav-menu
+{
+    display: flex;
+}
+
+#nav-menu a
+{
+    padding: 0 10px;
+}
+
+nav a
+{
+    color: #ffffff;
+    transition: all 1s;
+}
+
+nav a:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 1s;
+}
+
+main
+{
+    width: 100%;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#main-content
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#main-content section
+{
+    margin: 50px 0;
+}
+
+.button-download
+{
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 30px;
+    background-color: #1c74f8;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.button-download:hover
+{
+    background-color: #5495f5;
+}
+
+.offer
+{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+.offer-circle
+{
+    border: 2px solid #1c74f8;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    line-height: 65px;
+    margin: 0 auto;
+}
+
+.offer-number
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.offer-title
+{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.offer-description
+{
+    padding: 5px;
+    color: #3d3d3d;
+}
+
+.reg-item
+{
+    width: 100%;
+}
+
+.reg-title
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.reg-description
+{
+    text-align: center;
+}
+
+.galer-main
+{
+    display: flex;
+    margin: 0px;
+}
+
+.galer-img
+{
+    width: 25%;
+    padding: 5px;
+}
+
+.gry
+{
+    width: 33.33%;
+    text-align: center;
+}
+
+.gry-img
+{
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.gry-title
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gry-description
+{
+    width: 100%;
+    padding: 20px;
+    color: #3d3d3d;
+}
+
+.gry-download
+{
+    width: 100%;
+}
+
+.gry-download .button-download
+{
+    padding: 10px 20px;
+}
+
+footer
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+}
+
+#alert
+{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #c60202;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/* -------------------------------------- */
+/* Tylko strona gtavonline */
+/* -------------------------------------- */
+
+.gtav-pakiety
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px;
+    color: #f38a00;
+}
+
+.gtav-info
+{
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.gtav-info-answer
+{
+    padding: 10px;
+}
+
+.gtav-pakiet
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.gtav-pakiet-title
+{
+    font-size: 22px;
+    padding: 15px;
+}
+
+.gtav-title
+{
+    font-weight: bold;
+}
+
+.gtav-hajs
+{
+    color: #01942d;
+    font-weight: bold;
+}
+
+.gtav-rp
+{
+    color: #1970e2;
+    font-weight: bold;
+}
+
+.gtav-pakiet-description
+{
+    padding: 5px;
+}
+
+.gtav-pakiet-price
+{
+    width: 100%;
+    font-size: 22px;
+    padding: 15px;
+    border-bottom: 1px solid #1970e2;
+}
+
+.gtav-price
+{
+    color: #965fee;
+    font-weight: bold;
+}
