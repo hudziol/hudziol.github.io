@@ -42,7 +42,7 @@ function getCookie(cname)
     }
 } */
 
-var slid = 1;
+/* var slid = 1;
 var max = 3;
 setTimeout(slider, 1);
 function slider()
@@ -70,9 +70,9 @@ function slider()
         slid = 1;
     }
     setTimeout(slider, 4000);
-}
+} */
 
-window.onload = alert;
+//window.onload = alert;
 
 function alert(klik)
 {

@@ -55,7 +55,8 @@ a
     font-weight: bold;
     padding: 5px;
     font-size: 20px;
-    color: #3d3d3d;
+    /* color: #3d3d3d; */
+    color: #ffffff;
 }
 
 .section-title
@@ -77,6 +78,9 @@ body
     padding: 0;
     width: 100%;
     font-family: 'Noto Sans', sans-serif;
+    background-image: url("../img/gtavonline/tlogta5.jpg");
+    background-attachment: fixed;
+    color: #ffffff;
 }
 
 header
@@ -131,7 +135,8 @@ main
     padding: 20px;
     display: block;
     margin: 0 auto;
-    background-color: #ffffff;
+    color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 #main-content
@@ -193,7 +198,8 @@ main
 .offer-description
 {
     padding: 5px;
-    color: #3d3d3d;
+    /* color: #3d3d3d; */
+    color: #ffffff;
 }
 
 footer
@@ -227,11 +233,20 @@ footer
 {
     width: 100%;
     display: flex;
+    background-color: #ececec;
 }
 
 #menu-gtav a
 {
     color: #000000;
+    background-color: #ececec;
+    padding: 10px;
+}
+
+#menu-gtav a:hover
+{
+    color: #ffffff;
+    background-color: #363636;
 }
 
 .gtav-pakiety
@@ -248,6 +263,7 @@ footer
     width: 100%;
     margin-bottom: 50px;
     font-size: 22px;
+    color: #ffffff;
 }
 
 .gtav-info-answer
@@ -265,6 +281,7 @@ footer
 {
     font-size: 22px;
     padding: 15px;
+    color: #ffffff;
 }
 
 .gtav-title
@@ -287,6 +304,7 @@ footer
 .gtav-pakiet-description
 {
     padding: 5px;
+    color: #ffffff;
 }
 
 .gtav-pakiet-price
@@ -295,6 +313,7 @@ footer
     font-size: 22px;
     padding: 15px;
     border-bottom: 1px solid #1970e2;
+    color: #ffffff;
 }
 
 .gtav-price
