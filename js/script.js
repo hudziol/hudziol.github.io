@@ -72,9 +72,27 @@ function slider()
     setTimeout(slider, 4000);
 } */
 
+//var img = this.document.getElementById("img-1");
+//var img = document.getElementsByClassName("galer-img");
+//var img = document.querySelectorAll(".galer-img");
+//var num;
+//img.onclick = imgMax;
+/* for(i=0; i<10; i++)
+{
+    img[i].onclick = imgMax;
+    console.log(i);
+}
+
+function imgMax()
+{
+    console.log("Img");
+    //var imgScreen = document.createElement("div");
+    //imgScreen.src;
+} */
+
 //window.onload = alert;
 
-function alert(klik)
+/* function alert(klik)
 {
     if(klik == 1)
     {
@@ -93,12 +111,32 @@ function alert(klik)
             //document.getElementById("alert").style.display = "block";
         }
     }
+} */
+
+setTimeout(firstVisit, 1);
+function firstVisit()
+{
+    if(getCookie("firstVisit"))
+    {
+        document.querySelector("#komunikat-background").style.display = "none";
+    }
+    else
+    {
+        setTimeout(
+            function()
+            {
+            setCookie("firstVisit", 1, 9999);
+            document.querySelector("#komunikat-background").style.display = "none";
+            },
+        3000);
+    }
 }
 
+setTimeout(wizyty, 1);
 function wizyty()
 {
-    var liczbaWejsc = Number(getCookie("visit"));
+    var liczbaWejsc = Number(getCookie("visits"));
     var wejscia = liczbaWejsc + 1;
-    setCookie("visit", wejscia, "9999")
+    setCookie("visits", wejscia, "9999")
     console.log(wejscia);
 }
