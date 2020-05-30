@@ -336,6 +336,12 @@ footer
     font-weight: bold;
 }
 
+.gtav-osiagniecia
+{
+    color: #ceec25;
+    font-weight: bold;
+}
+
 .gtav-pakiet-description
 {
     padding: 5px;
@@ -357,11 +363,32 @@ footer
     font-weight: bold;
 }
 
+@keyframes priceSale
+{
+    0%
+    {
+        transform: rotate(0deg);
+        opacity: 0.5;
+    }
+    50%
+    {
+        transform: rotate(10deg);
+        opacity: 1.0;
+    }
+    100%
+    {
+        transform: rotate(0deg);
+        opacity: 0.5;
+    }
+}
+
 .gtav-price-old
 {
+    position: absolute;
     color: #ff0000;
     text-decoration: line-through;
     /* text-decoration-color: #ff0000; */
     margin-left: 10px;
     font-size: 20px;
+    animation: priceSale 3s infinite;
 }
