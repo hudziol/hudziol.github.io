@@ -197,23 +197,24 @@ main
 
 .post-link
 {
-    width: 100%;
-    padding: 30px;
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 @keyframes puls
 {
     0%
     {
-        transform: scale(1.0);
+        padding: 10px;
     }
     50%
     {
-        transform: scale(1.1);
+        padding: 12px;
     }
     100%
     {
-        transform: scale(1.0);
+        padding: 10px;
     }
 }
 
@@ -223,7 +224,7 @@ main
     border-radius: 5px;
     background-color: #1b1c20;
     margin: 0 auto;
-    position: absolute;
+    /* position: absolute; */
     animation: puls 2s infinite;
 }
 
