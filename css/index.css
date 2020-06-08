@@ -106,10 +106,13 @@ nav
 main
 {
     width: 100%;
-    padding: 20px;
     display: block;
     margin: 0 auto;
     color: #000000;
+}
+
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #main-title
@@ -118,6 +121,7 @@ main
     width: 100%;
     font-weight: bold;
     font-size: 40px;
+    margin: 50px 0;
 }
 
 #main-description
@@ -130,16 +134,10 @@ main
     color: #999999;
 }
 
-#main-content
-{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .post
 {
     display: flex;
-    margin-top: 100px;
+    margin-bottom: 50px;
     background-color: #f6cd61;
 }
 
@@ -202,30 +200,12 @@ main
     margin: 0 auto;
 }
 
-@keyframes puls
-{
-    0%
-    {
-        opacity: 1.0;
-    }
-    50%
-    {
-        opacity: 0.9;
-    }
-    100%
-    {
-        opacity: 1.0;
-    }
-}
-
 .post-link-a
 {
     padding: 10px;
     border-radius: 5px;
     background-color: #1b1c20;
     margin: 0 auto;
-    /* position: absolute; */
-    /* animation: puls 2s infinite; */
 }
 
 .post-link-a:hover
