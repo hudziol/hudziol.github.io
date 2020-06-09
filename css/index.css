@@ -141,6 +141,7 @@ main
     display: flex;
     margin-bottom: 50px;
     background-color: #f6cd61;
+    width: 100%;
 }
 
 .post-left
@@ -181,7 +182,7 @@ main
 .post-img
 {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     margin: 0;
     padding: 0;
 }
@@ -189,7 +190,7 @@ main
 .post-img img
 {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     margin: 0;
     padding: 10px;
     padding-bottom: 5px;
