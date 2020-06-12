@@ -225,3 +225,21 @@ footer
     background-color: #1b1c20;
     color: #ffffff;
 }
+
+#sociale
+{
+    position: fixed;
+    top: 40%;
+    left: 0;
+    color: #1b1c20;
+    background-color: #ffffff;
+    display: block;
+    width: 100px;
+}
+
+.sociale-item img
+{
+    color: #1b1c20;
+    width: 100px;
+    height: 100px;
+}
