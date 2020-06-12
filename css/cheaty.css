@@ -1,22 +1,43 @@
 .cheaty
 {
     width: 100%;
+    margin-bottom: 50px;
+    display: flex;
 }
 
 .cheaty-item
 {
     width: 33.33%;
     background-color: #f6cd61;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cheat-img
+{
+    width: 100%;
+}
+
+
+.cheat-img img
+{
+    width: 100%;
 }
 
 .cheat-title
 {
     font-weight: bold;
     text-align: center;
+    padding: 10px;
 }
 
 .cheat-description
 {
     color: #5e5e5e;
+    text-align: center;
+}
+
+.post-link
+{
     text-align: center;
 }
