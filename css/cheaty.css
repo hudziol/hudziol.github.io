@@ -1,0 +1,22 @@
+.cheaty
+{
+    width: 100%;
+}
+
+.cheaty-item
+{
+    width: 33.33%;
+    background-color: #f6cd61;
+}
+
+.cheat-title
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.cheat-description
+{
+    color: #5e5e5e;
+    text-align: center;
+}
