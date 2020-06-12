@@ -158,6 +158,7 @@ main
 {
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 .post-title
@@ -181,9 +182,8 @@ main
 
 .post-img
 {
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    display: block;
+    width: 50%;
     padding: 0;
 }
 
